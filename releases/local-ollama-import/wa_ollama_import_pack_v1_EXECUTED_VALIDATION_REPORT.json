@@ -1,0 +1,14 @@
+{
+  "package_folder_exists": true,
+  "required_files_missing": [],
+  "json_status": "pass",
+  "zip_status": "pass",
+  "semantic_units": 341,
+  "rag_chunks": 15,
+  "raw_sources_included": 7,
+  "source_inventory_entries": 9,
+  "generated_files": 54,
+  "zip_bytes": 812270,
+  "tar_gz_bytes": 787171,
+  "RWAL_BINARY_SCORE": 1
+}
