@@ -1,0 +1,23 @@
+1dfa1cb
+[
+[001 | verify-runtime : validate-waexbin1-envelope],
+[002 | validate-checksums : confirm-attached-package],
+[003 | decode-payload : decompress-runtime-json],
+[004 | acquire-corpus : load-accessible-wa-sources],
+[005 | inventory-sources : hash-available-artifacts],
+[006 | carry-forward : preserve-existing-semantic-units],
+[007 | append-runtime : add-attached-runtime-units],
+[008 | score-subsystems : compute-gain-cost-net],
+[009 | replace-gate : strengthen-rwal-abs-validation],
+[010 | merge-extractor : addin-recursive-extraction-engine],
+[011 | merge-controller : addin-subsystem-evolution-controller],
+[012 | merge-compiler : addin-1dfa1cb-translation],
+[013 | merge-rag : addin-rag-corpus-engineering],
+[014 | merge-binary : addin-portable-transfer-envelope],
+[015 | hold-mssp : await-more-evidence],
+[016 | hold-github : await-binary-release-upload-capability],
+[017 | discard-finetune : reject-premature-weight-claims],
+[018 | compile-derivative : create-v1-1-runtime-prompt],
+[019 | package-result : zip-execution-artifacts],
+[020 | score-rwal : binary-score-one]
+]
