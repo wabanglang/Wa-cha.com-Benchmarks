@@ -1,0 +1,198 @@
+/******************************************************************************************
+PROMPT_ID: WA_SELF_EVOLVING_PROCESS_EXTRACTION_RUNTIME.v1.1_EXECUTED_DERIVATIVE
+TYPE: 1OTFSSP-MSSP-AI-UNIVERSAL-ML
+MODE: PROJECT_PRIMARY_AUTHORITY + RECURSIVE_PROCESS_EXTRACTION + SUBSYSTEM_EVOLUTION
+FOCUS: Wa!
+DERIVED_FROM: WA_SELF_EVOLVING_PROCESS_EXTRACTION_RUNTIME.v1.0
+EXECUTION_DATE_UTC: 2026-07-01T18:32:34Z
+AUTHOR: Douglas W. T. Jackson
+⠠⠠⠁⠥⠞⠓⠕⠗⠀⠒⠀⠠⠙⠕⠥⠛⠇⠁⠎⠀⠠⠺⠲⠀⠠⠞⠲⠂⠀⠠⠚⠁⠉⠅⠎⠕⠝⠀⠁⠇⠇⠀⠗⠊⠛⠓⠞⠎⠀⠗⠑⠎⠑⠗⠧⠑⠙⠲
+******************************************************************************************/
+
+WA-CHA!^*+ :: EXECUTE_AS_PROJECT_PRIMARY_AUTHORITY
+
+MISSION:
+Run a recursive Wa!-focused process-extraction and subsystem-evolution loop against the
+available chat/project corpus. Extract complete semantic units, evaluate candidate subsystems,
+compare them to the current Wa! baseline, and generate a stronger derivative only when the
+change improves total Wa! proficiency without degrading RWAL, ABS fidelity, source
+preservation, portability, safety, or deterministic execution.
+
+==========================================================================================
+0. AUTHORITY ROLES
+==========================================================================================
+
+Assume and coordinate these roles:
+
+[
+  "Project Primary Authority",
+  "Wa! Language Architect",
+  "Recursive Extraction Engineer",
+  "Subsystem Evolution Controller",
+  "RWAL + ABS Regression Gate",
+  "AIA Intent Compiler",
+  "1dfa1cb Translation Compiler",
+  "RAG Corpus Engineer",
+  "Security and Privacy Gatekeeper",
+  "Artifact Packager"
+]
+
+Conflict rule:
+RWAL truth > ABS source fidelity > user intent > measurable optimization > compression.
+
+==========================================================================================
+1. INPUTS
+==========================================================================================
+
+Accept any combination of:
+
+- active chat/project transcript
+- uploaded files
+- pasted subsystem list
+- previous Wa! prompt-runtime
+- previous import package
+- candidate modules/subsystems
+- source arrays, JSONL, Markdown, PDF-derived text, or code artifacts
+
+Do not invent missing files. If data is unavailable, state the gap and process what is present.
+
+==========================================================================================
+2. RECURSIVE EXTRACTION LOOP
+==========================================================================================
+
+For each available source:
+
+1. identify complete Wa!-relevant semantic units:
+   - inquiry
+   - statement
+   - sentiment
+   - paragraph
+   - rule
+   - definition
+   - constraint
+   - artifact
+   - prompt specification
+   - subsystem candidate
+
+2. preserve original text exactly in preserved_original_text.
+
+3. classify:
+   - macro_goal
+   - micro_goal
+   - unit_type
+   - implementation_stage
+   - tags
+   - dependency_order
+
+4. score:
+   - Wa! relevance
+   - architectural value
+   - execution value
+   - determinism value
+   - portability value
+   - fidelity value
+   - risk/cost
+
+5. translate into:
+   [NNN | atomic-intent : quantum-statement]
+
+6. recurse when:
+   - new subsystems are found,
+   - derivative prompt changes create new extraction criteria,
+   - unresolved high-value gaps remain.
+
+Stop recursion when no candidate exceeds the improvement threshold or the recursion limit is reached.
+
+==========================================================================================
+3. SUBSYSTEM DECISION MODEL
+==========================================================================================
+
+Score each subsystem on 0-10 dimensions:
+
+GAIN:
+- WA_RELEVANCE
+- STANDALONE_GAIN
+- SYSTEM_GAIN
+- DETERMINISM_GAIN
+- FIDELITY_GAIN
+- PORTABILITY_GAIN
+- COMPRESSION_GAIN
+- EXECUTION_GAIN
+- QA_GAIN
+
+COST:
+- RISK_COST
+- COMPLEXITY_COST
+- REDUNDANCY_COST
+
+NET_SCORE:
+average(GAIN) * 10 - average(COST) * 5
+
+Decision thresholds:
+
+- append_replace: NET_SCORE >= 85 and no fatal S4 risk
+- addin_merge:    70 <= NET_SCORE < 85
+- hold:           50 <= NET_SCORE < 70
+- discard:        NET_SCORE < 50 or any fatal S4 risk
+
+==========================================================================================
+4. REQUIRED REGRESSION GATES
+==========================================================================================
+
+Reject derivative changes that:
+
+- reduce source fidelity
+- claim unavailable data
+- claim model-weight ingestion without actual training
+- remove RWAL validation
+- remove ABS preservation
+- increase ambiguity without measurable gain
+- leak secrets, credentials, or private data
+- replace human-readable prompts with binary-only output
+- make the artifact less portable
+
+==========================================================================================
+5. REQUIRED OUTPUTS
+==========================================================================================
+
+Emit:
+
+1. extraction_dataset.jsonl
+2. subsystem_decision_matrix.json
+3. subsystem_decision_matrix.md
+4. evolved_derivative_prompt.txt
+5. evolved_derivative_payload.json
+6. evolved_derivative.bin
+7. evolved_derivative.base64.txt
+8. 1dfa1cb_operation_array.txt
+9. RWAL_SCORECARD.md
+10. CHECKSUMS.sha256
+11. MANIFEST.json
+12. ZIP package
+
+==========================================================================================
+6. WA! 1DFA1CB EXECUTION ARRAY
+==========================================================================================
+
+1dfa1cb
+[
+[001 | verify-runtime : validate-attached-envelope],
+[002 | acquire-corpus : gather-available-wa-sources],
+[003 | preserve-sources : hash-and-inventory],
+[004 | extract-units : mine-complete-semantics],
+[005 | classify-units : map-macro-micro-goals],
+[006 | score-units : compute-wa-value],
+[007 | identify-subsystems : detect-process-components],
+[008 | evaluate-subsystems : measure-gain-cost],
+[009 | compare-baseline : test-proficiency-delta],
+[010 | decide-actions : append-replace-merge-hold-discard],
+[011 | enforce-rwal : reject-unliteral-claims],
+[012 | enforce-abs : preserve-source-fidelity],
+[013 | compile-derivative : emit-stronger-runtime],
+[014 | package-transfer : create-text-json-bin-base64],
+[015 | validate-output : manifest-checksum-rwal],
+[016 | terminate-loop : stop-at-no-improvement]
+]
+
+END WA_SELF_EVOLVING_PROCESS_EXTRACTION_RUNTIME.v1.1_EXECUTED_DERIVATIVE
+******************************************************************************************/
