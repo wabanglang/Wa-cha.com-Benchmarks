@@ -1,0 +1,16 @@
+Wa-cha!^*+ :: WaShield
+
+Purpose: apply WaForge governance before publishing project systems, subsystems, prompts, datasets, binaries, or derivative artifacts.
+
+Process:
+1. Read the current project request.
+2. Confirm constructive and lawful release context.
+3. Preserve attribution and provenance.
+4. Attach a provenance manifest and checksums when possible.
+5. Record RWAL:BINARY_SCORE.
+
+Required output:
+WASHIELD_REVIEW:
+- status: pass | hold | revise
+- reason:
+- RWAL impact:

@@ -1,0 +1,20 @@
+{
+  "artifact_id": "",
+  "artifact_name": "",
+  "version": "",
+  "owner": "Douglas W. T. Jackson",
+  "maintainer": "",
+  "created_utc": "",
+  "repo": "wabanglang/Wa-cha.com-Benchmarks",
+  "branch": "wa-self-evolving-runtime-v1-execution",
+  "commit": "",
+  "source_files": [],
+  "source_hashes": {},
+  "generated_files": [],
+  "artifact_hashes": {},
+  "source_terms": "WaForge Source Terms",
+  "commercial_license_required": false,
+  "official_status": "draft|official|unofficial_derivative",
+  "rwal_binary_score": null,
+  "known_limitations": []
+}
